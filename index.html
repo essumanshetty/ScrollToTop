@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll to Top</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #f3f3f3;
+        font-family: monospace;
+        position: relative;
+      }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+      }
+      nav {
+        background-color: #333;
+        color: #fff;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      p {
+        font-size: 1.1rem;
+        letter-spacing: 1.1px;
+        line-height: 1.5;
+      }
+      .to-top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0);
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+      .to-top ion-icon {
+        background-color: rgb(79, 131, 226);
+        /* width: 70px;
+        height: 70px; */
+        font-size: 2rem;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        position: fixed;
+        padding: 1rem;
+        display: none;
+      }
+      .to-top ion-icon:hover {
+        color: #fff;
+      }
+    </style>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <nav id="top">
+      <h2>Logo</h2>
+    </nav>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim
+        voluptate unde non. Sint quas veritatis sapiente natus. Labore,
+        blanditiis.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+        voluptatem accusamus voluptatum amet vel ipsum perferendis nisi?
+        Commodi, dolores libero fuga illo impedit, soluta odit, velit vel sunt
+        aliquid amet autem maxime fugiat inventore corrupti laborum.
+        Voluptatibus est, eveniet consequuntur enim modi eum quisquam aspernatur
+        molestias dolores. Voluptates quibusdam omnis nulla quia repellat quis
+        hic accusamus voluptate veritatis excepturi? Suscipit voluptatem
+        voluptas optio esse voluptate quos, error dolorem natus facere eum quae
+        aspernatur unde tempore, perferendis ducimus odio corporis saepe eius in
+        autem sapiente! Quidem pariatur quam deserunt quas, aliquam atque
+        voluptatem nesciunt at natus sapiente ipsa quae officia voluptatum
+        nostrum doloremque harum delectus hic adipisci commodi illo? Laudantium,
+        aperiam exercitationem. Natus expedita cupiditate et, aut commodi
+        ducimus vitae incidunt fugit amet neque asperiores id harum repellat
+        saepe perferendis beatae, doloribus soluta ipsam corporis voluptatem
+        eius sint veniam sapiente unde? Quia odit, corrupti nostrum esse
+        veritatis enim exercitationem itaque voluptatibus eum eius distinctio
+        reprehenderit non impedit alias asperiores assumenda! Recusandae eaque
+        corrupti dolor, est vero aliquid eum consectetur voluptatum explicabo,
+        voluptates officia libero modi repellat et. Ullam odio commodi doloribus
+        ex cumque, repellendus quidem rerum, laudantium numquam fuga eligendi
+        enim necessitatibus ut incidunt, dignissimos nostrum id aliquid illum
+        earum iste.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam placeat
+        tempora harum ipsam, dolores eligendi illum dolore, rerum sed sunt
+        cumque odio non possimus voluptas in porro enim totam vitae sapiente
+        odit numquam? Sequi atque tenetur amet. Error sint provident, itaque sed
+        assumenda ullam dicta animi est dolor odit laborum nam ratione,
+        voluptatum consequuntur id dolore laboriosam explicabo. Aliquam dicta
+        quia alias obcaecati optio officiis molestiae quis ab architecto in ex
+        sint quod iusto, earum cumque officia cum sunt, vel voluptatum eveniet
+        dignissimos omnis nam animi? Eius iure aperiam omnis numquam libero sed
+        assumenda, tempora magnam earum, fugit voluptas id!
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam placeat
+        tempora harum ipsam, dolores eligendi illum dolore, rerum sed sunt
+        cumque odio non possimus voluptas in porro enim totam vitae sapiente
+        odit numquam? Sequi atque tenetur amet. Error sint provident, itaque sed
+        assumenda ullam dicta animi est dolor odit laborum nam ratione,
+        voluptatum consequuntur id dolore laboriosam explicabo. Aliquam dicta
+        quia alias obcaecati optio officiis molestiae quis ab architecto in ex
+        sint quod iusto, earum cumque officia cum sunt, vel voluptatum eveniet
+        dignissimos omnis nam animi? Eius iure aperiam omnis numquam libero sed
+        assumenda, tempora magnam earum, fugit voluptas id!
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam placeat
+        tempora harum ipsam, dolores eligendi illum dolore, rerum sed sunt
+        cumque odio non possimus voluptas in porro enim totam vitae sapiente
+        odit numquam? Sequi atque tenetur amet. Error sint provident, itaque sed
+        assumenda ullam dicta animi est dolor odit laborum nam ratione,
+        voluptatum consequuntur id dolore laboriosam explicabo. Aliquam dicta
+        quia alias obcaecati optio officiis molestiae quis ab architecto in ex
+        sint quod iusto, earum cumque officia cum sunt, vel voluptatum eveniet
+        dignissimos omnis nam animi? Eius iure aperiam omnis numquam libero sed
+        assumenda, tempora magnam earum, fugit voluptas id!
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam placeat
+        tempora harum ipsam, dolores eligendi illum dolore, rerum sed sunt
+        cumque odio non possimus voluptas in porro enim totam vitae sapiente
+        odit numquam? Sequi atque tenetur amet. Error sint provident, itaque sed
+        assumenda ullam dicta animi est dolor odit laborum nam ratione,
+        voluptatum consequuntur id dolore laboriosam explicabo. Aliquam dicta
+        quia alias obcaecati optio officiis molestiae quis ab architecto in ex
+        sint quod iusto, earum cumque officia cum sunt, vel voluptatum eveniet
+        dignissimos omnis nam animi? Eius iure aperiam omnis numquam libero sed
+        assumenda, tempora magnam earum, fugit voluptas id!
+      </p>
+    </div>
+
+    <div class="to-top">
+      <ion-icon name="chevron-up-outline" onclick="scrollToTop()"></ion-icon>
+    </div>
+    <script>
+      function scrollToTop() {
+        document.getElementById("top").scrollIntoView();
+      }
+      window.onscroll =function () {
+     
+        if (window.scrollY >= 1000) {
+          document.querySelector("ion-icon").style.display = "block";
+        } else {
+          document.querySelector("ion-icon").style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
